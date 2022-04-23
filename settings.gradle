@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "OpenSourceApp_6weeks"
+include ':app'
+include 'myapplication'
+include ':projcet6_1'
+include ':project6_3'
+include ':project6_2'
+include ':project7_2'
+include ':project7_3'
+include ':mission_6'
+include ':mission_7'
+include ':mission_8'
+include ':mission8'
+include ':mission_8'
+include ':mission_9'
+include ':mission_10'
